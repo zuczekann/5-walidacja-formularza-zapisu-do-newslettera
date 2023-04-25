@@ -44,7 +44,7 @@ const validate = (event) => {
         txtErrors.appendChild(liError);
     }
 
-    if (chxAgree1.checked) {
+    if (chxAgree1.checked==false) {
         let liError = document.createElement('li');
         liError.innerText = "nie wyrażono zgody nr 1";
         txtErrors.appendChild(liError);
